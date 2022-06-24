@@ -36,14 +36,14 @@ theme_config:
     title_blog: Blog
     #title_old_projects: Old Projects
 
-# soopr:
-#   publish_token: "" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
+ soopr:
+   publish_token: "" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
 
-# highlighter: rouge
+ highlighter: rouge
 
 sass:
   style: :compressed
 
-# plugins:
-#   - jekyll-feed
-#   - jekyll-soopr-seo-tag
+ plugins:
+   - jekyll-feed
+   - jekyll-soopr-seo-tag
