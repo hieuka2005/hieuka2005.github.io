@@ -4,16 +4,16 @@ url: https://hieuka2005.github.io # root address of the site
 description: > # description of the site (multiple lines allowed)
   hieuka2005.github.io là blog của tôi, mục đích tôi làm ra nó là để viết những gì mà tôi muốn viết
 
-#permalink: /:slug
+permalink: /:slug
 
 favicon: "./logo.png" # relative path to site's favicon
 
 twitter:
-    username: hieuka.fan # update or delete this
+    username: abhinav # update or delete this
     card: summary_large_image
 
 #theme: moonwalk # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
-remote_theme: hieuka2005
+remote_theme: abhinavs/moonwalk
 
 theme_config:
   appearance: "dark" # can be "light", "dark" or "auto"
@@ -36,14 +36,14 @@ theme_config:
     title_blog: Blog
     #title_old_projects: Old Projects
 
- soopr:
-   publish_token: "" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
+soopr:
+  publish_token: "" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
 
- highlighter: rouge
+highlighter: rouge
 
- sass:
+sass:
   style: :compressed
 
- plugins:
-   - jekyll-feed
-   - jekyll-soopr-seo-tag
+plugins:
+  - jekyll-feed
+  - jekyll-soopr-seo-tag
